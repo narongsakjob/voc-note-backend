@@ -1,0 +1,9 @@
+{
+  "name": "voc-note-backend",
+  "version": "1.0.0",
+  "description": "Restful api voc note website",
+  "main": "index.js",
+  "repository": "https://github.com/narongsakjob/voc-note-backend.git",
+  "author": "Narongsak <narongsak.chobsri@gmail.com>",
+  "license": "MIT"
+}
