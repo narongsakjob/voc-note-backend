@@ -7,7 +7,8 @@ let express = require('express'),
 
 // mongoose instance connection url connection
 mongoose.Promise = global.Promise;
-mongoose.connect('mongodb://localhost/Vocdb'); 
+// mongoose.connect('mongodb://localhost/Vocdb'); 
+mongoose.connect('mongodb://heroku_bsbj7wkb:e20off75uvmnc8bnb2gn94t8jk@ds119489.mlab.com:19489/heroku_bsbj7wkb'); 
 
 
 app.use(bodyParser.urlencoded({ extended: true }));
