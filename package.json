@@ -5,5 +5,8 @@
   "main": "index.js",
   "repository": "https://github.com/narongsakjob/voc-note-backend.git",
   "author": "Narongsak <narongsak.chobsri@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
 }
