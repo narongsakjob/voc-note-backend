@@ -2,7 +2,6 @@
 let mongoose = require('mongoose')
 let Schema = mongoose.Schema
 
-
 let TaskSchema = new Schema({
   name: {
     type: String,
@@ -21,4 +20,4 @@ let TaskSchema = new Schema({
   }
 })
 
-module.exports = mongoose.model('Tasks', TaskSchema)
+module.exports = TaskSchema

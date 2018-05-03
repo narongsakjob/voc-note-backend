@@ -2,7 +2,7 @@ let express = require('express'),
 	app = express(),
 	port = process.env.PORT || 3000,
 	mongoose = require('mongoose'),
-  Task = require('./api/models/voc_model'), //created model loading here
+  Schema = require('./api/models/schema'), //created model loading here
   bodyParser = require('body-parser')
 
 // mongoose instance connection url connection
