@@ -3,11 +3,13 @@ let mongoose = require('mongoose')
 let Schema = mongoose.Schema
 
 // Migration
-let TaskSchema = require('./task_model')
 let UserSchema = require('./user_model')
+let NoteSchema = require('./note_model')
+let VocabSchme = require('./vocab_model')
 
-let Base = []
-Base.Task = mongoose.model('Tasks', TaskSchema)
-Base.User = mongoose.model('Users', UserSchema)
+let BaseSchema = []
+BaseSchema.User = mongoose.model('Users', UserSchema)
+BaseSchema.Note = mongoose.model('Notes', NoteSchema)
+BaseSchema.Vocab = mongoose.model('Vocabs', VocabSchme)
 
-module.exports = Base
+module.exports = BaseSchema
